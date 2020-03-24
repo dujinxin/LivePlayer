@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296DD06724263CB10071943A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DD06624263CB10071943A /* AppDelegate.swift */; };
+		296DD06924263CB10071943A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DD06824263CB10071943A /* SceneDelegate.swift */; };
+		296DD06B24263CB10071943A /* FYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DD06A24263CB10071943A /* FYLiveViewController.swift */; };
+		296DD06E24263CB10071943A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296DD06C24263CB10071943A /* Main.storyboard */; };
+		296DD07024263CB20071943A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296DD06F24263CB20071943A /* Assets.xcassets */; };
+		296DD07324263CB30071943A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296DD07124263CB30071943A /* LaunchScreen.storyboard */; };
+		297A1481242751150077EFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A1480242751150077EFD6 /* ViewController.swift */; };
+		297A1483242752FC0077EFD6 /* FYPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A1482242752FC0077EFD6 /* FYPlayerViewController.swift */; };
+		667B4D252762807E444D81CA /* Pods_FYLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3907FAD24B532763FEAD75 /* Pods_FYLive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		053FD28016B65B520A7B6621 /* Pods-FYLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLive.release.xcconfig"; path = "Target Support Files/Pods-FYLive/Pods-FYLive.release.xcconfig"; sourceTree = "<group>"; };
+		17915FB815ABC334ECF32DAD /* Pods-FYLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLive.debug.xcconfig"; path = "Target Support Files/Pods-FYLive/Pods-FYLive.debug.xcconfig"; sourceTree = "<group>"; };
+		1A3907FAD24B532763FEAD75 /* Pods_FYLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296DD06324263CB10071943A /* FYLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		296DD06624263CB10071943A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		296DD06824263CB10071943A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		296DD06A24263CB10071943A /* FYLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYLiveViewController.swift; sourceTree = "<group>"; };
+		296DD06D24263CB10071943A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		296DD06F24263CB20071943A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		296DD07224263CB30071943A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		296DD07424263CB30071943A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297A1480242751150077EFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		297A1482242752FC0077EFD6 /* FYPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		296DD06024263CB10071943A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667B4D252762807E444D81CA /* Pods_FYLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296DD05A24263CB10071943A = {
+			isa = PBXGroup;
+			children = (
+				296DD06524263CB10071943A /* FYLive */,
+				296DD06424263CB10071943A /* Products */,
+				8FE40B1EC60D37C1622958D7 /* Pods */,
+				F55BBE758804958DA677A955 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		296DD06424263CB10071943A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				296DD06324263CB10071943A /* FYLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		296DD06524263CB10071943A /* FYLive */ = {
+			isa = PBXGroup;
+			children = (
+				296DD06624263CB10071943A /* AppDelegate.swift */,
+				296DD06824263CB10071943A /* SceneDelegate.swift */,
+				296DD06A24263CB10071943A /* FYLiveViewController.swift */,
+				297A1482242752FC0077EFD6 /* FYPlayerViewController.swift */,
+				297A1480242751150077EFD6 /* ViewController.swift */,
+				296DD06C24263CB10071943A /* Main.storyboard */,
+				296DD06F24263CB20071943A /* Assets.xcassets */,
+				296DD07124263CB30071943A /* LaunchScreen.storyboard */,
+				296DD07424263CB30071943A /* Info.plist */,
+			);
+			path = FYLive;
+			sourceTree = "<group>";
+		};
+		8FE40B1EC60D37C1622958D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17915FB815ABC334ECF32DAD /* Pods-FYLive.debug.xcconfig */,
+				053FD28016B65B520A7B6621 /* Pods-FYLive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F55BBE758804958DA677A955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3907FAD24B532763FEAD75 /* Pods_FYLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		296DD06224263CB10071943A /* FYLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296DD07724263CB30071943A /* Build configuration list for PBXNativeTarget "FYLive" */;
+			buildPhases = (
+				E44B0B6E56A9DEB3EC84907D /* [CP] Check Pods Manifest.lock */,
+				296DD05F24263CB10071943A /* Sources */,
+				296DD06024263CB10071943A /* Frameworks */,
+				296DD06124263CB10071943A /* Resources */,
+				1D18C94F61AD490892CEE7E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYLive;
+			productName = FYLive;
+			productReference = 296DD06324263CB10071943A /* FYLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		296DD05B24263CB10071943A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = COB;
+				TargetAttributes = {
+					296DD06224263CB10071943A = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 296DD05E24263CB10071943A /* Build configuration list for PBXProject "FYLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 296DD05A24263CB10071943A;
+			productRefGroup = 296DD06424263CB10071943A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				296DD06224263CB10071943A /* FYLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		296DD06124263CB10071943A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296DD07324263CB30071943A /* LaunchScreen.storyboard in Resources */,
+				296DD07024263CB20071943A /* Assets.xcassets in Resources */,
+				296DD06E24263CB10071943A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D18C94F61AD490892CEE7E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLive/Pods-FYLive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLive/Pods-FYLive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYLive/Pods-FYLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44B0B6E56A9DEB3EC84907D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		296DD05F24263CB10071943A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296DD06B24263CB10071943A /* FYLiveViewController.swift in Sources */,
+				296DD06724263CB10071943A /* AppDelegate.swift in Sources */,
+				297A1483242752FC0077EFD6 /* FYPlayerViewController.swift in Sources */,
+				297A1481242751150077EFD6 /* ViewController.swift in Sources */,
+				296DD06924263CB10071943A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		296DD06C24263CB10071943A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296DD06D24263CB10071943A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		296DD07124263CB30071943A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296DD07224263CB30071943A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		296DD07524263CB30071943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		296DD07624263CB30071943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		296DD07824263CB30071943A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17915FB815ABC334ECF32DAD /* Pods-FYLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA4DP26GTS;
+				INFOPLIST_FILE = FYLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FY.FYLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		296DD07924263CB30071943A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053FD28016B65B520A7B6621 /* Pods-FYLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA4DP26GTS;
+				INFOPLIST_FILE = FYLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FY.FYLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296DD05E24263CB10071943A /* Build configuration list for PBXProject "FYLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296DD07524263CB30071943A /* Debug */,
+				296DD07624263CB30071943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		296DD07724263CB30071943A /* Build configuration list for PBXNativeTarget "FYLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296DD07824263CB30071943A /* Debug */,
+				296DD07924263CB30071943A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 296DD05B24263CB10071943A /* Project object */;
+}

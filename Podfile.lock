@@ -1,0 +1,20 @@
+PODS:
+  - IJKMediaFramework (0.1.3)
+  - LFLiveKit (2.6)
+
+DEPENDENCIES:
+  - IJKMediaFramework
+  - LFLiveKit
+
+SPEC REPOS:
+  trunk:
+    - IJKMediaFramework
+    - LFLiveKit
+
+SPEC CHECKSUMS:
+  IJKMediaFramework: d1c0b5b37a449c6c15af19ca7607c54640ef15a6
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+
+PODFILE CHECKSUM: fd68dda2864521687e6db885f6d871401953eef5
+
+COCOAPODS: 1.9.1
